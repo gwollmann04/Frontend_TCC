@@ -26,8 +26,8 @@ export default {
       entries: [],
       fields: [
         { key: "id", label: "Entrada", sortable: true },
-        { key: "typeOf", label: "Tipo", sortable: true },
-        { key: "createdAt", label: "Data", sortable: true}
+        { key: "typeof", label: "Tipo", sortable: true },
+        { key: "createdat", label: "Data", sortable: true}
       ]}
   },
   methods: {
