@@ -30,7 +30,7 @@ export default {
         { key: "createdat", label: "Data", sortable: true,
         formatter: (key) =>{
             var parts = key.split('T')
-            return parts[0] + ' ' + parts[1]
+            return parts[0] + ' ' + parts[1] + 'a'
         }}
       ]}
   },
