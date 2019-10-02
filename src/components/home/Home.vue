@@ -9,7 +9,7 @@
   </div>
 </template>
 
-s
+
 <script>
 import { baseApiUrl } from '@/global'
 import axios from 'axios'
@@ -27,7 +27,11 @@ export default {
       fields: [
         { key: "id", label: "Entrada", sortable: true },
         { key: "typeof", label: "Tipo", sortable: true },
-        { key: "createdat", label: "Data", sortable: true}
+        { key: "createdat", label: "Data", sortable: true,
+        formatter: (key) =>{
+            var parts = key.split('T')
+            return parts[0]
+        }}
       ]}
   },
   methods: {
