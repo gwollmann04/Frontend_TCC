@@ -30,7 +30,7 @@
                     <b-form-group label="Confirmação de Senha:" 
                         label-for="user-confirm-password">
                         <b-form-input id="user-confirm-password" type="password"
-                            v-model="user.confirmPassword" required
+                            v-model="user.confirmpassword" required
                             placeholder="Confirme a Senha do Usuário..." />
                     </b-form-group>
                 </b-col>
@@ -40,7 +40,7 @@
                     <b-form-group label="Numero de Telefone" 
                         label-for="user-phoneNumber">
                         <b-form-input id="user-phoneNumber" type="text"
-                            v-model="user.phoneNumber"
+                            v-model="user.phonenumber"
                             placeholder="Informe o numero de telefone..." />
                     </b-form-group>
                 </b-col>
@@ -70,8 +70,8 @@ export default {
                 name : this.user.name,
                 email: this.user.email,
                 password: this.user.password,
-                confirmPassword: this.user.confirmPassword,
-                phoneNumber: this.user.phoneNumber
+                confirmpassword: this.user.confirmpassword,
+                phonenumber: this.user.phonenumber
             }
             axios.put(`${baseApiUrl}/users/${this.user.id}`, sendUser)
                 .then(() => {

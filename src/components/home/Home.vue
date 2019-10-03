@@ -31,8 +31,9 @@ export default {
         formatter: (key) =>{
             var parts = key.split('T')
             return parts[0] 
-      ]}
-  },
+      }
+  }]
+  }},
   methods: {
     loadEntries() {
       const url = `${baseApiUrl}/entries/${this.user.id}`

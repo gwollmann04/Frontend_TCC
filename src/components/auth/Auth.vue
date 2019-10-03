@@ -8,7 +8,7 @@
             <input v-if="showSignup" v-model="user.name" type="text" placeholder="Nome">
             <input v-model="user.email" type="text" placeholder="E-mail">
             <input v-model="user.password" type="password" placeholder="Senha">
-            <input v-if="showSignup" v-model="user.confirmPassword" type="password" placeholder="Confirme a senha">
+            <input v-if="showSignup" v-model="user.confirmpassword" type="password" placeholder="Confirme a senha">
             <input v-if="showSignup" v-model="user.phonenumber" type="text" placeholder="Informe seu numero de telefone">
 
             <button v-if="showSignup" @click="signup">Registrar</button>

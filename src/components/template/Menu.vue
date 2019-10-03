@@ -2,7 +2,7 @@
   <aside class="menu" v-show="isMenuVisible">
     <span>Nome: {{user.name}}</span>
     <span>E-mail: {{user.email}}</span>
-    <span>Numero de Telefone:{{user.phoneNumber}}</span>
+    <span>Numero de Telefone:{{user.phonenumber}}</span>
     <b-button variant="warning" @click.prevent="config">
       <i class="fa fa-pencil"></i>
     </b-button>
