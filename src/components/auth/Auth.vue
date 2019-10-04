@@ -1,8 +1,7 @@
 <template>
     <div class="auth-content">
         <div class="auth-modal">
-            <img src="@/assets/logo.png" width="200" alt="Logo"/>
-            <hr>
+            <img src="@/assets/logo(2).png" width="250" alt="Logo"/>
             <div class="auth-title">{{ showSignup ? 'Cadastro' : 'Login' }}</div>
 
             <input v-if="showSignup" v-model="user.name" type="text" placeholder="Nome">
@@ -79,7 +78,6 @@ export default {
     .auth-title {
         font-size: 1.2rem;
         font-weight: 100;
-        margin-top: 10px;
         margin-bottom: 15px;
     }
 
