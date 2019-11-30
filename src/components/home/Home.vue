@@ -42,9 +42,9 @@ export default {
         {key:"typeof", label: "Tipo"},
         {key:"db", label: "Valor em Db"},
         ],
-      values: [{typeof:"Alerta 1",db:"De 80 a 90 DB's"},
-      {typeof:"Alerta 2",db:"De 90 a 100 DB's"},
-      {typeof:"Alerta 3",db:"100 ou mais DB's"}],
+      values: [{typeof:"Alerta 1",db:"De 80 a 90"},
+      {typeof:"Alerta 2",db:"De 90 a 100"},
+      {typeof:"Alerta 3",db:"100 ou mais"}],
       entries: [],
       fields: [
         { key: "id", label: "Entrada", sortable: true},
@@ -82,6 +82,7 @@ export default {
 </script>
 
 <style>
+
 .load-more {
   display: flex;
   flex-direction: column;
