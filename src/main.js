@@ -11,9 +11,6 @@ import router from './config/router'
 
 Vue.config.productionTip = false
 
-//Criar no backend uma url pra devolver o numero de usuarios
-//Colocar no form de admnistração uma linha para usuario colocar o telefone
-//Onde é usada a função setUser do store
 
 new Vue({
   store,
